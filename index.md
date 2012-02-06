@@ -1,12 +1,22 @@
 ---
 layout: page
-title: Hello World!
+title: Paul McKellar
 ---
 {% include JB/setup %}
 
-<ul class="posts">
+<ul class="posts unstyled">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li class="post row">
+      <div class="span4">
+        <span>{{ post.date | date_to_string }}</span>
+      </div>
+      <div class="span8">
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+      </div>
+      <div class="offset4 span8">
+        {{ post.content }}
+      </div>
+    </li>
   {% endfor %}
 </ul>
 
