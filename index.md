@@ -6,13 +6,13 @@ layout: page
 <ul class="posts unstyled">
   {% for post in site.posts %}
     <li class="post row">
-      <div class="span4 post-date">
+      <div class="span2 post-date">
         <span>{{ post.date | date_to_string }}</span>
       </div>
       <div class="span8">
         <a href="{{ BASE_PATH }}{{ post.url }}"><h1>{{ post.title }}</h1></a>
       </div>
-      <div class="offset4 span8">
+      <div class="offset2 span8">
         {{ post.content }}
       </div>
     </li>
