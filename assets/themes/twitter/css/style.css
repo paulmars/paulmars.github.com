@@ -50,6 +50,9 @@ footer {
 .post {
   margin-bottom: 4em;
 }
+.post-date {
+  text-align: right;
+}
 
 /* tag_box ======================================================== */
 

@@ -11,11 +11,9 @@ In sinatra, the first defined route executes
 
 <code>
   get "/test" do;<br />
+  <span style="font-family: monospace;">puts "first";<br />end <br /><br />get "/test" do;<br />puts "last";<br />end <br /></span>
+  <span style="font-family: monospace;">GET /test # =&gt; first</span>
 </code>
-
-<span style="font-family: monospace;">puts "first";<br />end <br /><br />get "/test" do;<br />puts "last";<br />end <br /></span>
-
-<span style="font-family: monospace;">GET /test # =&gt; first</span>
 
 Rails kinda does the same thing regarding routes (first declared executes). But because of rails' terse-ness regarding routes I expected it. I see everything on one page for routes, and assume top executes first. With sinatra, and ruby in general, I expected the last definition to override the first.
 
