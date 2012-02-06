@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Paul McKellar
 ---
 {% include JB/setup %}
 
