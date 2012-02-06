@@ -7,6 +7,7 @@ tuples = names.map do |name|
   [hash["stubbie_fn"], hash["filehash"]]
 end
 
+Dir.mkdir("photos")
 tuples.each do |tuple|
   begin
     Dir.mkdir("photos/#{tuple.first}")
@@ -15,6 +16,7 @@ tuples.each do |tuple|
       "hash" => tuple.last,
       "layout" => "photo",
     }.to_yaml
+    f << "\n---"
     f.close
   rescue
   end
