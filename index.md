@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 ---
 {% include JB/setup %}
 
-<ul class="posts unstyled">
+<div class="posts unstyled">
   {% for post in site.posts %}
-    <li class="post row">
+    <div class="post row">
       <div class="span2 post-date">
         <span>{{ post.date | date_to_string }}</span>
       </div>
@@ -15,7 +15,7 @@ layout: page
       <div class="offset2 span8">
         {{ post.content }}
       </div>
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>
 
