@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Paul McKellar
+alias: /posts
 ---
 {% include JB/setup %}
 
