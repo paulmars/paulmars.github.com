@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Paul McKellar
 ---
 {% include JB/setup %}
 
@@ -18,4 +19,3 @@ layout: default
     </div>
   {% endfor %}
 </div>
-
