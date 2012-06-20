@@ -2,31 +2,33 @@
 layout: post
 ---
 
+10000+ lines of history
 
-10000 lines of history
+~ wc ~/.zsh_history
+   11922   66196  554886 /Users/paul/.zsh_history
 
-478 unique keywords in my history
+505 unique keywords
 
-64 words which are used more than 10 times
+505 commands appear > 1 times
+168 commands appear > 2 times
+87 commands appear > 5 times
+64 commands appear > 10 times
+43 commands appear > 20 times
+30 commands appear > 30 times
+25 commands appear > 40 times
+20 commands appear > 50 times
 
-81 > 5 times
-64 > 10 times
-41 > 20 times
-29 > 30 times
-
-
-most common extra words
-
-git 5226
+Most common commands:
+git 5186
 cd 550
-rm 419
-rails 372
+rm 421
+rails 371
 mate 214
-touch 196
+touch 209
 curl 190
-cat 167
-# 156
-gem 147
+cat 182
+gem 164
+mv 151
 
 most commont words I use with git
 
