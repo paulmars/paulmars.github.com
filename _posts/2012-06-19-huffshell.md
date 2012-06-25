@@ -1,14 +1,24 @@
 ---
 layout: post
+title: You're probably typing too much.
 ---
 
-10000+ lines of history
+I've written a gem to analyze my zsh history and it turns out I'm typing too much. The most obvious thing I'm typing too much is 'git'. I've typed in 5186 times in my zsh history, which is about 5186 times more than I should.
+
+In fact there are 20 commands which I've typed more than 50 times, many of which could be abbreviated with proper alias commands.
+
+There are two problems here. The first is that I should figure out what should be an alias, and I should do it based on what my habits current are. Then I should actually learn and use that alias.
+
+To achieve this, I wrote code to examine my history file and show me stats based on what commands I currently used. After that, it was easy to recommend aliases which I could add to my shell configuration.
+
+My history file had 10000+ lines of history.
 
 ~ wc ~/.zsh_history
-   11922   66196  554886 /Users/paul/.zsh_history
+11922   66196  554886 /Users/paul/.zsh_history
 
-505 unique keywords
+There were 505 unique keywords.
 
+Here is the frequency graph of how I used my commands.
 505 commands appear > 1 times
 168 commands appear > 2 times
 87 commands appear > 5 times
@@ -30,7 +40,7 @@ cat 182
 gem 164
 mv 151
 
-most commont words I use with git
+It turns out 'git' is my most frequent offender. And underneath git, the commands I used are often typed out rather than aliased.
 
 commit 3840
 co 326
@@ -43,7 +53,7 @@ rm 45
 reset 42
 branch 38
 
-most common commit messages
+My code even shows me there are patterns in my commit messages. I think about my changes primarily in terms of adding features or code and secondarily in terms of removing.
 
 git 5141: 'git' => g
   commit 3734: 'git commit' => gc
