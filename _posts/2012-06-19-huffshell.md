@@ -1,34 +1,24 @@
 ---
 layout: post
-title: You're probably typing too much.
+title: You probably type too much.
 ---
 
-I've written a gem to analyze my zsh history and it turns out I'm typing too much. The most obvious thing I'm typing too much is 'git'. I've typed in 5186 times in my zsh history, which is about 5186 times more than I should.
+I had a feeling I type too much. But I wasn't sure how. So like any programmer, I got a computer to figure it out for me.
 
-In fact there are 20 commands which I've typed more than 50 times, many of which could be abbreviated with proper alias commands.
+What did I type? Is there a history of everything I've typed? Something I can mine for interesting data?
 
-There are two problems here. The first is that I should figure out what should be an alias, and I should do it based on what my habits current are. Then I should actually learn and use that alias.
-
-To achieve this, I wrote code to examine my history file and show me stats based on what commands I currently used. After that, it was easy to recommend aliases which I could add to my shell configuration.
-
-My history file had 10000+ lines of history.
-
+<pre>
 ~ wc ~/.zsh_history
-11922   66196  554886 /Users/paul/.zsh_history
+17185   85023  723154 /Users/paul/.zsh_history
+</pre>
 
-There were 505 unique keywords.
+That is a bunch of data. And once I turned off de-duplication, for this experiment, it became a bunch more.
 
-Here is the frequency graph of how I used my commands.
-505 commands appear > 1 times
-168 commands appear > 2 times
-87 commands appear > 5 times
-64 commands appear > 10 times
-43 commands appear > 20 times
-30 commands appear > 30 times
-25 commands appear > 40 times
-20 commands appear > 50 times
+### What do I type?
 
-Most common commands:
+What shouldn't I type? As it turns out, the answer is 'git'. I've typed 'git' 5186 times, which is 5186 too many. 10x more than any other command.
+
+<pre>
 git 5186
 cd 550
 rm 421
@@ -39,38 +29,43 @@ curl 190
 cat 182
 gem 164
 mv 151
+</pre>
 
-It turns out 'git' is my most frequent offender. And underneath git, the commands I used are often typed out rather than aliased.
+Here is the frequency graph of how I used my commands.
 
-commit 3840
-co 326
-add 293
-td 104
-clone 75
-diff 65
-log 60
-rm 45
-reset 42
-branch 38
+<pre>
+583 commands appear > 1 times
+217 commands appear > 2 times
+110 commands appear > 5 times
+78 commands appear > 10 times
+58 commands appear > 20 times
+32 commands appear > 50 times
+23 commands appear > 100 times
+11 commands appear > 250 times
+</pre>
 
-My code even shows me there are patterns in my commit messages. I think about my changes primarily in terms of adding features or code and secondarily in terms of removing.
+There are 32 commands which I've typed more than 50 times, many of which could use a great alias. The other 500+ commands, not so worried about those because I don't use them very much.
 
-git 5141: 'git' => g
-  commit 3734: 'git commit' => gc
-    -m 3726: 'git commit -m' => gcm
-      "add 538: 'git commit -m "add' => gcma
-      "remove 259: 'git commit -m "remove' => gcmr
-      "can 161: 'git commit -m "can' => gcmc
-      "fix 128: 'git commit -m "fix' => gcmf
-      "change 110: 'git commit -m "change' => gcmc
-      "bump 104: 'git commit -m "bump' => gcmb
-      "move 102: 'git commit -m "move' => gcmm
-      "make 100: 'git commit -m "make' => gcmm
-      "show 84: 'git commit -m "show' => gcms
-      "use 75: 'git commit -m "use' => gcmu
-      "don't 49: 'git commit -m "don't' => gcmd
-      "update 40: 'git commit -m "update' => gcmu
-      "basic 35: 'git commit -m "basic' => gcmb
-      "only 34: 'git commit -m "only' => gcmo
-      "set 31: 'git commit -m "set' => gcms
-      "new 30: 'git commit -m "new' => gcmn
+### How do I do this?
+
+[Huffshell](https://github.com/paulmars/huffshell#huffshell) is a gem which will looks at your history and generate a command tree based on what you type. It will also make basic suggestions for improvements.
+
+
+### Surprises Patterns
+
+Huffshell even shows me there are patterns in my commit messages. I think about my changes primarily in terms of adding features or code and secondarily in terms of removing.
+
+<pre>
+git 5141
+  commit 3734
+    -m 3726
+      "add 538
+      "remove 259
+      "can 161
+      "fix 128
+      "change 110
+      "bump 104
+      "move 102
+      "make 100
+      "show 84
+</pre>
