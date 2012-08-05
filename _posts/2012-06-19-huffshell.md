@@ -16,19 +16,19 @@ That is a bunch of data. And once I turned off de-duplication, for this experime
 
 ### What do I type?
 
-What shouldn't I type? As it turns out, the answer is 'git'. I've typed 'git' 5186 times, which is 5186 too many. 10x more than any other command.
+What shouldn't I type? As it turns out, the answer is 'git'. I've typed 'git' 6642 times, which is 6642 too many. A lot more than any other command.
 
 <pre>
-git 5186
-cd 550
-rm 421
-rails 371
-mate 214
-touch 209
-curl 190
-cat 182
-gem 164
-mv 151
+git 6642
+cd 988
+gap 524
+rm 487
+ruby 452
+ls 427
+rails 407
+rake 315
+gem 268
+mate 262
 </pre>
 
 Here is the frequency graph of how I used my commands.
