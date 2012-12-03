@@ -60,6 +60,6 @@ I'm going to add a bunch more aliases.
 
 ### Update: After 1 week + 1 day.
 
-After creating 10 new aliases, by score dropped almost 700 points in 1 hour. But I'm noticing and remembering.
+After creating 10 new aliases, my score dropped almost 700 points in 1 hour. But I'm noticing and remembering.
 
 Adding too many aliases at once was a mistake.
