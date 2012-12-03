@@ -7,9 +7,9 @@ Today I gamified my shell.
 
 Ok, stop laughing, I only spent 2 hours working on it.
 
-I wanted to actually learn the aliases I've carefully setup in my shell. I think up good ones, ones that I know I would use everyday. Then the obvious happens, I forget them and continue on exactly as before.
+I wanted to actually learn the aliases I've carefully setup in my shell. The problem is that I think up new aliases, but forget them and continue on exactly as before.
 
-An example of things I don't learn
+An example of something I never remember or memorize.
 
 ```
 alias gcop = "git co -p"
@@ -19,7 +19,7 @@ alias gcop = "git co -p"
 
 I needed immediately feedback of when I should have used an alias but forgot to. But, more important than that, I didn't want to be distracted by anything flashy. The notification must be small and persistent.
 
-So I wrote some code. It needed to do the following
+I boiled down the feature set to this:
 
 * look at the aliases I current have defined
 * look at the last command I executed
@@ -57,4 +57,6 @@ I'm going to add a bunch more aliases.
 
 ### Update: After 1 week + 1 day.
 
-After creating 10 new aliases, by score dropped almost 700 points in 1 hour. But I'm starting to notice and learn.
+After creating 10 new aliases, by score dropped almost 700 points in 1 hour. But I'm noticing and remembering.
+
+Adding too many aliases at once was a mistake.
