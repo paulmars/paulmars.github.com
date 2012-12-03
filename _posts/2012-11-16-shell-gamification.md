@@ -17,11 +17,11 @@ alias gcop = "git co -p"
 
 ### Notifications when I forget.
 
-I needed immediately feedback of when I should have used an alias but forgot to. But, more important than that, I didn't want to be distracted by anything flashy. The notification must be small and persistent.
+I needed immediate feedback of when I should have used an alias but forgot to. But, more important than that, I didn't want to be distracted by anything flashy. The notification must be small and persistent.
 
 I boiled down the feature set to this:
 
-* look at the aliases I current have defined
+* look at the aliases I currently have defined
 * look at the last command I executed
 * provide information about what I should have written as soon as I did something wrong
 
