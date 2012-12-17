@@ -45,7 +45,29 @@
 
     {% include JB/analytics %}
 
+
+    <script type="text/javascript">
+
+      if (window.Juno === undefined) {
+        window.Juno = {};
+      }
+
+      if (window.Juno.params === undefined) {
+        window.Juno.params = {};
+      }
+
+      if (window.Juno.params.site === undefined) {
+        window.Juno.params.site = {};
+      }
+
+      if (window.Juno.params.site.name === undefined) {
+        window.Juno.params.site.name = "pm";
+      }
+
+    </script>
+
     <script type="text/javascript" src="http://junojs.com/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="http://junojs.com/vendor/mustache.js"></script>
     <script type="text/javascript" src="http://junojs.com/js/juno/bar.js"></script>
   </body>
 </html>
