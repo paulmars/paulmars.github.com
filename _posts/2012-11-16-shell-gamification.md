@@ -7,7 +7,7 @@ Today I gamified my shell.
 
 Ok, stop laughing, I only spent 2 hours working on it.
 
-I wanted to actually learn the aliases I've carefully setup. I always think up new aliases, but immediatly forget them, and continue on exactly as before.
+I wanted to actually learn the aliases I've carefully setup. I always think up new aliases, but immediately forget them, and continue on exactly as before.
 
 ### Feature spec.
 

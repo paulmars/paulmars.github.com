@@ -9,7 +9,7 @@ In ruby, the LAST definition of a function is the one that executes.
   </code>
 </p>
 
-In sinatra, the first defined route executes
+In Sinatra, the first defined route executes
 
 <p>
 <code>
@@ -19,6 +19,6 @@ In sinatra, the first defined route executes
 </code>
 </p>
 
-Rails kinda does the same thing regarding routes (first declared executes). But because of rails' terse-ness regarding routes I expected it. I see everything on one page for routes, and assume top executes first. With sinatra, and ruby in general, I expected the last definition to override the first.
+Rails kinda does the same thing regarding routes (first declared executes). But because of rails' terse-ness regarding routes I expected it. I see everything on one page for routes, and assume top executes first. With Sinatra, and ruby in general, I expected the last definition to override the first.
 
-(sinatra wins in terseness in every other regard vs rails and I understand why sinatra does this, now)
+(Sinatra wins in terseness in every other regard vs rails and I understand why Sinatra does this, now)
