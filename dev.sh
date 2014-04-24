@@ -1,1 +1,1 @@
-jekyll --pygments --safe --server --auto
+jekyll server --watch
