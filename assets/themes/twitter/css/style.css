@@ -1,32 +1,17 @@
-/* Override some defaults */
-html, body {
-  background-color: white;
+html {
+  font-size: 12px;
+  font-weight: 300;
 }
-body {
+
+.headerbar h1 {
+  font-size: 24px;
 }
-footer {
+
+.headerbar {
+  margin-top: 5em;
+  margin-bottom: 1em;
   border: 0px;
 }
-
-.container > footer p {
-  text-align: center; /* center align it with the container */
-}
-.container {
-  width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
-}
-
-/* The white background content wrapper */
-.content {
-  background-color: #fff;
-  padding: 20px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-/*  -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-          box-shadow: 0 1px 2px rgba(0,0,0,.15);
-*/}
 
 h1 {
   font-size: 24px;
@@ -40,65 +25,11 @@ h3 {
   font-size: 16px;
 }
 
-li{
-  color: #333;
+a, a:visited, a:active, a:hover {
+  color: #404040;
 }
 
-.headerbar h1 {
-  font-size: 24px;
-}
-
-/* Page header tweaks */
-.headerbar {
-  margin-top: 5em;
-  margin-bottom: 1em;
-  background-color: white;
-  border: 0px;
-}
-
-/* posts   ======================================================== */
-.post {
-  margin-bottom: 4em;
-}
-.post h1{
-  line-height: 30px;
-}
-
-.post-date {
-  text-align: right;
-  font-size: 12px;
-  color: #CCC;
-  line-height: 40px;
-}
-
-/* tag_box ======================================================== */
-
-.tag_box {
-	list-style:none;
-	margin:0;
-	padding:5px 0 ;
-	overflow:hidden;
-}
-.tag_box li {
-	line-height:28px;
-}
-.tag_box.inline li {
-	float:left;
-}
-.tag_box a {
-	padding: 3px 6px;
-	margin: 2px;
-	background: #eee;
-	color:#005F6B;
-	border-radius: 3px;
-	text-decoration:none;
-}
-.tag_box a span{
-	vertical-align:super;
-	font-size:0.8em;
-}
-.tag_box a.active {
-	background:#57A957;
-	border:1px solid #4C964D;
-	color:#FFF;
+.post-date span{
+  float: right;
+  margin-top: 25px
 }
