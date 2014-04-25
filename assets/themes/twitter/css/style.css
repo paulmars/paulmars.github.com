@@ -18,6 +18,8 @@ h1 {
   font-size: 24px;
 }
 
+
+
 h2 {
   font-size: 20px;
 }
@@ -28,6 +30,11 @@ h3 {
 
 a, a:visited, a:active, a:hover {
   color: #404040;
+  text-decoration: underline;
+}
+
+h1 a, h1 a:visited, h1 a:active, h1 a:hover{
+    text-decoration: none;
 }
 
 .post-date span{
