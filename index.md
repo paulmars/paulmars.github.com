@@ -13,10 +13,6 @@ alias: /posts
       </div>
       <div class="col-sm-6 col-xs-12">
         <a href="{{ BASE_PATH }}{{ post.url }}"><h1>{{ post.title }}</h1></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-offset-2 col-sm-6 col-sm-12">
         {{ post.content }}
       </div>
     </div>
