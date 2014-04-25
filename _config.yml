@@ -12,6 +12,7 @@ author :
   twitter : pm
 
 production_url : http://paulmckellar.com
+markdown: kramdown
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
