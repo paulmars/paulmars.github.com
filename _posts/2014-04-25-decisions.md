@@ -10,7 +10,7 @@ Most of my friends who looked at it asked for new features. Comments, favs, a ne
 
 It took me off guard.
 
-Here is an app that barely has any interaction at all, and he was suggesting that we reduce it further. Maybe one of the four decisions we had made was incorrect? Maybe adding things to the app wasn't going to work out, maybe we had to change one of the decisions we had already done.
+Here is an app that barely has any interaction at all, and he was suggesting that we reduce it further. Maybe one of the four decisions we had made could be improved? Maybe adding things to the app wasn't going to work out, maybe we had to alter one of the decisions we had already made.
 
 ### Changing decisions
 
@@ -20,4 +20,4 @@ Humans have a hard time changing decisions they make. It take cognitive effort t
 
 Looking a product and saying what you should add, when you have a list of features you know about from other apps is easy.
 
-Realizing that some of the features might need to be removed is hard. Re analyzing decisions made is a process of forcing yourself to assume you are wrong.
+Realizing that some of the features might need to be removed is hard. Re-analyzing decisions made is a process of forcing yourself to assume you are wrong.
