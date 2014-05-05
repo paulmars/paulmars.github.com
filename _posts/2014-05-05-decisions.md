@@ -22,4 +22,4 @@ Looking at a product and saying what you should add, when you have a list of fea
 
 Realizing that some of the features might need to be removed is hard. Re-analyzing decisions made is a process of forcing yourself to assume you are wrong.
 
-[Discussion on HS](https://news.ycombinator.com/item?id=7700386)
+[Discussion on HN](https://news.ycombinator.com/item?id=7700386)
