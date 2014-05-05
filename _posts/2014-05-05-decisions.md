@@ -21,3 +21,5 @@ Humans have a hard time changing decisions they make. It take cognitive effort t
 Looking at a product and saying what you should add, when you have a list of features you know about from other apps is easy.
 
 Realizing that some of the features might need to be removed is hard. Re-analyzing decisions made is a process of forcing yourself to assume you are wrong.
+
+[Discussion on HS](https://news.ycombinator.com/item?id=7700386)
