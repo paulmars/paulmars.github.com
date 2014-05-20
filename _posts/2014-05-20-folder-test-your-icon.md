@@ -14,7 +14,7 @@ Try this test with Path, Threes, or 4sq. You will realize that each has an extre
 
 # Designers already know this
 
-They are already testing their designs under the worst case scenarios. Facebook blogged that they didn't do a new newsfeed because they have users with small screens and no contrast. Artists and Photographers will often flip their painting upside down in order to see the shapes and reset their brain
+They are already testing their designs under the worst case scenarios. [Facebook blogged](https://medium.com/art-of-product-design/ed75a0ee7641) that they didn't do a new newsfeed because they have users with small screens and no contrast. Artists and Photographers will often flip their painting upside down in order to see the shapes and reset their brain
 
 Back up from your work, and you'll do better work.
 
