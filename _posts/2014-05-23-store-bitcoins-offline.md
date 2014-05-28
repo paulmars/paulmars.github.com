@@ -64,4 +64,4 @@ Full circle!
 
 Be careful! If you make a mistake your coins may be gone forever. Don't go too fast.
 
-Got a suggestion for this blog post? [Make it here](https://hackpad.com/How-to-store-your-Bitcoins-Locally-F7YThRnU0zH)
+Got a suggestion for this blog post? Am I making a critical mistake? [Change it here](https://hackpad.com/How-to-store-your-Bitcoins-Locally-F7YThRnU0zH)
