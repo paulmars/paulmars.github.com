@@ -6,13 +6,13 @@ tags: []
 ---
 {% include JB/setup %}
 
-A lot of people advise against storing your bitcoins in a centralized service and I found the documentation around putting them on your computer to be pretty bad. Here is what I ended up doing based on [Naval's advice](https://twitter.com/naval).
+A lot of people advise against storing your bitcoins in a centralized service and I found the documentation around putting them on your computer to be pretty bad. Here is what I ended up doing based on [Naval's](https://twitter.com/naval) advice.
 
 ## Security & Design goals
 
 Security is a hard thing to guarantee. Many websites have been hacked and some individuals have been hacked. My goal is to be more secure that most, but still have my coins be reasonably easy to use.
 
-Centralized services are large targets for being attacked. If they are good, they keep most of their coins in cold storage. But it is hard to verify that they do that. And, as it turns out, many of them have been hacked.
+Centralized services are large targets for being attacked. If they are good, they keep most of their coins in cold storage. But it is hard to verify that they do that. And, as it turns out, many of them are not secure.
 
 As and individual, I'm also a target for being attacked. Someone could steal my (complicated) password and my phone and use them to steal my coins. As a computer user, a virus could take steal them.
 
