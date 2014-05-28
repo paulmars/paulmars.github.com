@@ -60,8 +60,12 @@ In this part, we recreate your wallet using the passphrase from before.
 3. Type in the pass passphrase from before. You wrote it down right?
 4. Wait, and verify your coins are there.
 
+## Conclusion (Warning!)
+
 Full circle!
 
 Be careful! If you make a mistake your coins may be gone forever. Don't go too fast.
+
+## Suggestions
 
 Got a suggestion for this blog post? Am I making a critical mistake? [Change it here](https://hackpad.com/How-to-store-your-Bitcoins-Locally-F7YThRnU0zH)
