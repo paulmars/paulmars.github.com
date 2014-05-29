@@ -65,7 +65,3 @@ In this part, we recreate your wallet using the passphrase from before.
 Full circle!
 
 Be careful! If you make a mistake your coins may be gone forever. Don't go too fast.
-
-## Suggestions
-
-Got a suggestion for this blog post? Am I making a critical mistake? [Change it here](https://hackpad.com/How-to-store-your-Bitcoins-Locally-F7YThRnU0zH)
