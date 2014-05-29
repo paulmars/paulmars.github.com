@@ -29,14 +29,14 @@ I used Electrum to secure my bitcoins. It appears secure, is open source, and us
 [Download Electrum](https://electrum.org/download.html)
 
 1. Boot it
-2. Write down the passphrase.
+2. Write down the seed.
 3. Write down the password.
 
-If you lose your passphrase, you lose you bitcoins. *FOREVER*. Don't be stupid and try and memorize it.
+If you lose your seed, you lose you bitcoins. *FOREVER*. Don't be stupid and try and memorize it.
 
 ## Trial Process
 
-The goal of this section is to ensure you understand how the whole system works. That you can add money to your wallet, and recover it later using the passphrase.
+The goal of this section is to ensure you understand how the whole system works. That you can add money to your wallet, and recover it later using the seed.
 
 1. Take a look in the "Receive" section.
 2. Find an address.
@@ -53,11 +53,11 @@ This is the scary part, we are going to delete your wallet.
 
 ## Recover your wallet
 
-In this part, we recreate your wallet using the passphrase from before.
+In this part, we recreate your wallet using the seed from before.
 
 1. Open Electrum up again.
 2. "Restore a wallet"
-3. Type in the pass passphrase from before. You wrote it down right?
+3. Type in the pass seed from before. You wrote it down right?
 4. Wait, and verify your coins are there.
 
 ## Conclusion (Warning!)
