@@ -1,8 +1,7 @@
 permalink: /:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
-pygments: true
+highlighter: true
 
 title : Paul McKellar
 author :
