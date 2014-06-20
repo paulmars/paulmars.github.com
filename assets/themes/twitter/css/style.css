@@ -1,7 +1,10 @@
 html {
-  font-size: 12px;
   font-weight: 300;
   padding-bottom: 120px;
+}
+
+body {
+  font-size: 16px;
 }
 
 .headerbar h1 {
@@ -18,8 +21,6 @@ h1 {
   font-size: 24px;
 }
 
-
-
 h2 {
   font-size: 20px;
 }
@@ -31,6 +32,10 @@ h3 {
 a, a:visited, a:active, a:hover {
   color: #404040;
   text-decoration: underline;
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 h1 a, h1 a:visited, h1 a:active, h1 a:hover{
