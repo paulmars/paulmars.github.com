@@ -24,7 +24,7 @@ So I looked at how Life magazine archives and sells theirs photos. After contact
 
 Going there I actually found a similar photo. So similar it must have been from the same day and photographer. But it isn't as nice of a photo in my opinion. I would link to it directly but their website is really "excellent".
 
-Stock photo ID: 42-32054467 (tel:4232054467)
+Stock photo ID: [42-32054467](http://www.corbisimages.com/stock-photo/rights-managed/42-32054467/american-astronaut-anna-lee-fisher)
 
 But that did allow me to figure out the photographers name.
 
