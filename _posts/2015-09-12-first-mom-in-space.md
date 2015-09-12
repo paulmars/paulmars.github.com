@@ -59,7 +59,7 @@ The photographer got back to me. He thinks the negative might ahve been lost in 
 
 I had a brief window where
 
-http://www.reddit.com/r/OldSchoolCool/comments/2u70vn/anna_fisher_astronaut_on_the_cover_of_life/
+[http://www.reddit.com/r/OldSchoolCool/comments/2u70vn/anna_fisher_astronaut_on_the_cover_of_life/](http://www.reddit.com/r/OldSchoolCool/comments/2u70vn/anna_fisher_astronaut_on_the_cover_of_life/)
 
 If you read the thread, you'll see we found someone who knew Anna fischer. A family friend of her reads reddit.
 
