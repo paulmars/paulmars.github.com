@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "new post"
+title: "First Mom in Space"
 category:
 tags: []
 ---
 {% include JB/setup %}
 
-First mom in space.
+<img src="/images/anna-fisher-first-mom-in-space.jpg" atl="anna fisher in a spacesuit" class="img-responsive">
 
-[Image: "postimages/anna-fisher-first-mom-in-space.jpg"]
 
 Two years ago I fell in love with this photo.
 
