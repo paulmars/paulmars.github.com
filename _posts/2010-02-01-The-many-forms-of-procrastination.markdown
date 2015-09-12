@@ -1,6 +1,5 @@
 ---
 layout: post
-alias: /posts/biv
 ---
 When you're in a startup, you need to be constantly doing the most effective thing for the startup. &nbsp;Your startup is small, you have limited resources, and you need to use them wisely.
 
