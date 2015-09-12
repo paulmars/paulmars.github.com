@@ -8,7 +8,6 @@ tags: []
 
 <img src="/images/anna-fisher-first-mom-in-space.jpg" atl="anna fisher in a spacesuit" class="img-responsive">
 
-
 Two years ago I fell in love with this photo.
 
 I can't even remember where I saw it first but it is obviously very striking? So I spent an afternoon looking around the internet. I did all the typical things you do when looking for a photo. Google image search, tin eye, etc. As you might know, it is pretty hard to find anything based on what it looks like.
