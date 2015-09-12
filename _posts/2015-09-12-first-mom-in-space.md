@@ -22,7 +22,7 @@ Dead end on search.
 
 So I looked at how Life magazine archives and sells theirs photos. After contacting a couple of people, I was directed to Corbis photography as a potentially reseller. (they have horrible websites, that entire industry is in need of better online tooling and presence)
 
-Going there I actually found a similar photo. So similar it must have been from the same day and photographer. But it isn't as nice of a photo in my opinion. I would link to it directly but their website is really "excellent".
+Going there I actually found a similar photo. So similar it must have been from the same day and photographer. But it isn't as nice of a photo in my opinion.
 
 Stock photo ID: [42-32054467](http://www.corbisimages.com/stock-photo/rights-managed/42-32054467/american-astronaut-anna-lee-fisher)
 
