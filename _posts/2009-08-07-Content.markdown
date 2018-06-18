@@ -1,4 +1,0 @@
----
-layout: post
----
-I decided that blog posts about stuff I've done in the past are probably more interesting, concrete, and thought out than things in the future.  Going to focus on the observations and decisions from the past and not the future. Maybe : )
