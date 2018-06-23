@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: front
 title: Paul McKellar
 ---
-{% include JB/setup %}
-
 <div class="row">
   <div class="col-sm topic-section">
     <h2>
