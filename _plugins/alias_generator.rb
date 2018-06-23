@@ -40,9 +40,9 @@ module Jekyll
     end
 
     def process_posts
-      puts "Processing #{@site.posts.size.to_s} post(s) for aliases..."
+      puts "Processing #{@site.posts.docs.size.to_s} post(s) for aliases..."
 
-      @site.posts.each do |post|
+      @site.posts.docs.size do |post|
         generate_aliases(post.url, post.data['alias'])
       end
     end
