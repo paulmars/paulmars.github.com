@@ -22,3 +22,6 @@ a, a:hover, a:visited, a:active {
 body {
   padding-bottom: 100px
 }
+.brand a, .brand a:visited, .brand a:hover, .brand a:active{
+  color: #333;
+}
