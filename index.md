@@ -6,16 +6,6 @@ title: Paul McKellar
 <div class="row">
   <div class="col-sm topic-section">
     <h2>
-      Follow or talk to me here
-    </h2>
-    <p>
-      <a href="http://twitter.com/pm">Twitter</a><br />
-    </p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm topic-section">
-    <h2>
       10 years of tech projects
     </h2>
     <ul class="subtitle">
@@ -40,5 +30,15 @@ title: Paul McKellar
         Socialmoth (<a href="http://money.cnn.com/2007/08/22/technology/facebook_economy.biz2/index.htm">CNN</a> / <a href="https://www.urbandictionary.com/define.php?term=socialmoth%20whore">Urban Dictionary</a>)
       </li>
     </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm topic-section">
+    <h2>
+      Follow or talk to me here
+    </h2>
+    <p>
+      <a href="http://twitter.com/pm">Twitter</a><br />
+    </p>
   </div>
 </div>
